@@ -1,0 +1,2 @@
+How to clear Jupyter Notebook's output in all cells from the Linux terminal / CMD / Anaconda Prompt?
+jupyter nbconvert --clear-output --inplace my_notebook.ipynb
