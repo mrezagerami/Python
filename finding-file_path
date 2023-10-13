@@ -1,0 +1,8 @@
+If you are looking for a file in your system, you can use this Python code to save time:
+
+import os
+# Get the current working directory
+current_directory = os.getcwd()
+# Construct the full path to [filename] in the current directory
+file_path = os.path.join(current_directory, "[filename]")
+file_path
